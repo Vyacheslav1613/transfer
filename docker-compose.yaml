@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  transfer_app:
+    build: ./
+    ports:
+      - '5500:5500'
