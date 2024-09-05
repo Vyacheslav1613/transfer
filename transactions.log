@@ -1,0 +1,56 @@
+сент. 05, 2024 11:08:37 PM ru.netology.kurs2.utils.TransactionLogger logTransaction
+INFO: Date/Time: чт сент. 05 23:08:37 YEKT 2024, Card From: 2200701321709062, Card To: 2200701321709062, Amount: 500.0 RUR, Commission: 5.0, Result: Ожидает подтверждения
+сент. 05, 2024 11:08:37 PM ru.netology.kurs2.utils.TransactionLogger logOperation
+INFO: Date/Time: чт сент. 05 23:08:37 YEKT 2024, Operation ID: 85dd7b0f-d089-43d5-b89a-4157db437655, Confirmation Code: 0000, Result: Успешно
+сент. 05, 2024 11:10:10 PM ru.netology.kurs2.utils.TransactionLogger logTransaction
+INFO: Date/Time: чт сент. 05 23:10:10 YEKT 2024, Card From: 2200701321709062, Card To: 2200701321709062, Amount: 200.0 RUR, Commission: 2.0, Result: Ожидает подтверждения
+сент. 05, 2024 11:10:10 PM ru.netology.kurs2.utils.TransactionLogger logOperation
+INFO: Date/Time: чт сент. 05 23:10:10 YEKT 2024, Operation ID: f0b933ce-07fc-481b-b08a-ca052ba0f408, Confirmation Code: 0000, Result: Ошибка
+сент. 05, 2024 11:11:31 PM ru.netology.kurs2.utils.TransactionLogger logTransaction
+INFO: Date/Time: чт сент. 05 23:11:31 YEKT 2024, Card From: 2200701321709062, Card To: 2200701321709062, Amount: 200.0 RUR, Commission: 2.0, Result: Ожидает подтверждения
+сент. 05, 2024 11:11:31 PM ru.netology.kurs2.utils.TransactionLogger logOperation
+INFO: Date/Time: чт сент. 05 23:11:31 YEKT 2024, Operation ID: 0e2a48c1-5ee6-4e42-8efb-712f2f82c1e8, Confirmation Code: 0000, Result: Ошибка
+сент. 05, 2024 11:13:14 PM ru.netology.kurs2.utils.TransactionLogger logTransaction
+INFO: Date/Time: чт сент. 05 23:13:14 YEKT 2024, Card From: 2200701321709062, Card To: 2200701321709062, Amount: 200.0 RUR, Commission: 2.0, Result: Ожидает подтверждения
+сент. 05, 2024 11:13:14 PM ru.netology.kurs2.utils.TransactionLogger logOperation
+INFO: Date/Time: чт сент. 05 23:13:14 YEKT 2024, Operation ID: 5b83ca5d-4a00-4198-8bc8-b5cc2175207e, Confirmation Code: 0000, Result: Ошибка
+сент. 05, 2024 11:17:05 PM ru.netology.kurs2.utils.TransactionLogger logTransaction
+INFO: Date/Time: чт сент. 05 23:17:05 YEKT 2024, Card From: 2200701321709062, Card To: 2200701321709062, Amount: 200.0 RUR, Commission: 2.0, Result: Ожидает подтверждения
+сент. 05, 2024 11:17:06 PM ru.netology.kurs2.utils.TransactionLogger logOperation
+INFO: Date/Time: чт сент. 05 23:17:06 YEKT 2024, Operation ID: 4c495bd0-3407-4887-b209-c149afa9f7be, Confirmation Code: 0000, Result: Ошибка подтверждения
+сент. 05, 2024 11:17:08 PM ru.netology.kurs2.utils.TransactionLogger logTransaction
+INFO: Date/Time: чт сент. 05 23:17:08 YEKT 2024, Card From: 2200701321709062, Card To: 2200701321709062, Amount: 200.0 RUR, Commission: 2.0, Result: Ожидает подтверждения
+сент. 05, 2024 11:17:08 PM ru.netology.kurs2.utils.TransactionLogger logOperation
+INFO: Date/Time: чт сент. 05 23:17:08 YEKT 2024, Operation ID: badf0260-8ec9-4039-af13-c7079bd58399, Confirmation Code: 0000, Result: Ошибка подтверждения
+сент. 05, 2024 11:17:10 PM ru.netology.kurs2.utils.TransactionLogger logTransaction
+INFO: Date/Time: чт сент. 05 23:17:10 YEKT 2024, Card From: 2200701321709062, Card To: 2200701321709062, Amount: 200.0 RUR, Commission: 2.0, Result: Ожидает подтверждения
+сент. 05, 2024 11:17:10 PM ru.netology.kurs2.utils.TransactionLogger logOperation
+INFO: Date/Time: чт сент. 05 23:17:10 YEKT 2024, Operation ID: db46b538-3af9-4bb5-a0c0-72ec3791b014, Confirmation Code: 0000, Result: Ошибка подтверждения
+сент. 05, 2024 11:17:12 PM ru.netology.kurs2.utils.TransactionLogger logTransaction
+INFO: Date/Time: чт сент. 05 23:17:12 YEKT 2024, Card From: 2200701321709062, Card To: 2200701321709062, Amount: 200.0 RUR, Commission: 2.0, Result: Ожидает подтверждения
+сент. 05, 2024 11:17:12 PM ru.netology.kurs2.utils.TransactionLogger logOperation
+INFO: Date/Time: чт сент. 05 23:17:12 YEKT 2024, Operation ID: 957cde32-e098-44f5-895b-0c3b45c7685e, Confirmation Code: 0000, Result: Ошибка подтверждения
+сент. 05, 2024 11:17:14 PM ru.netology.kurs2.utils.TransactionLogger logTransaction
+INFO: Date/Time: чт сент. 05 23:17:14 YEKT 2024, Card From: 2200701321709062, Card To: 2200701321709062, Amount: 200.0 RUR, Commission: 2.0, Result: Ожидает подтверждения
+сент. 05, 2024 11:17:14 PM ru.netology.kurs2.utils.TransactionLogger logOperation
+INFO: Date/Time: чт сент. 05 23:17:14 YEKT 2024, Operation ID: 5a29ea84-b008-4b65-9326-35dcedea0af2, Confirmation Code: 0000, Result: Ошибка подтверждения
+сент. 05, 2024 11:17:17 PM ru.netology.kurs2.utils.TransactionLogger logTransaction
+INFO: Date/Time: чт сент. 05 23:17:17 YEKT 2024, Card From: 2200701321709062, Card To: 2200701321709062, Amount: 200.0 RUR, Commission: 2.0, Result: Ожидает подтверждения
+сент. 05, 2024 11:17:17 PM ru.netology.kurs2.utils.TransactionLogger logOperation
+INFO: Date/Time: чт сент. 05 23:17:17 YEKT 2024, Operation ID: b0afec75-7de6-4a2d-b1f9-b0457e3d96ce, Confirmation Code: 0000, Result: Ошибка подтверждения
+сент. 05, 2024 11:17:18 PM ru.netology.kurs2.utils.TransactionLogger logTransaction
+INFO: Date/Time: чт сент. 05 23:17:18 YEKT 2024, Card From: 2200701321709062, Card To: 2200701321709062, Amount: 200.0 RUR, Commission: 2.0, Result: Ожидает подтверждения
+сент. 05, 2024 11:17:18 PM ru.netology.kurs2.utils.TransactionLogger logOperation
+INFO: Date/Time: чт сент. 05 23:17:18 YEKT 2024, Operation ID: 0de9481d-886d-4438-a32e-cc1164a3bc61, Confirmation Code: 0000, Result: Ошибка подтверждения
+сент. 05, 2024 11:18:03 PM ru.netology.kurs2.utils.TransactionLogger logTransaction
+INFO: Date/Time: чт сент. 05 23:18:03 YEKT 2024, Card From: 2200701321709062, Card To: 2200701321709062, Amount: 200.0 RUR, Commission: 2.0, Result: Ожидает подтверждения
+сент. 05, 2024 11:18:03 PM ru.netology.kurs2.utils.TransactionLogger logOperation
+INFO: Date/Time: чт сент. 05 23:18:03 YEKT 2024, Operation ID: c3b45824-9d1a-497a-b6e6-8e8586bb9182, Confirmation Code: 0000, Result: Ошибка подтверждения
+сент. 05, 2024 11:18:05 PM ru.netology.kurs2.utils.TransactionLogger logTransaction
+INFO: Date/Time: чт сент. 05 23:18:05 YEKT 2024, Card From: 2200701321709062, Card To: 2200701321709062, Amount: 200.0 RUR, Commission: 2.0, Result: Ожидает подтверждения
+сент. 05, 2024 11:18:05 PM ru.netology.kurs2.utils.TransactionLogger logOperation
+INFO: Date/Time: чт сент. 05 23:18:05 YEKT 2024, Operation ID: 1d6c9153-a207-44b8-8650-ec2df4898635, Confirmation Code: 0000, Result: Ошибка подтверждения
+сент. 05, 2024 11:18:06 PM ru.netology.kurs2.utils.TransactionLogger logTransaction
+INFO: Date/Time: чт сент. 05 23:18:06 YEKT 2024, Card From: 2200701321709062, Card To: 2200701321709062, Amount: 200.0 RUR, Commission: 2.0, Result: Ожидает подтверждения
+сент. 05, 2024 11:18:06 PM ru.netology.kurs2.utils.TransactionLogger logOperation
+INFO: Date/Time: чт сент. 05 23:18:06 YEKT 2024, Operation ID: 5f5578c8-68ac-4869-889d-15604c864554, Confirmation Code: 0000, Result: Ошибка подтверждения

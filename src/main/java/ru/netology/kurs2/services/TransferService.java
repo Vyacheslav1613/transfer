@@ -6,17 +6,26 @@ import ru.netology.kurs2.exc.TransferExc;
 import ru.netology.kurs2.models.TransferRequest;
 import ru.netology.kurs2.utils.TransactionLogger;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.UUID;
 
 @Service
 public class TransferService {
 
-    public String processTransfer(TransferRequest request) throws InvalidDataExc, TransferExc {
+    private final Map<String, String> operations = new HashMap<>();
+
+    public String processTransfer(TransferRequest request) throws InvalidDataExc {
         if (!validateRequest(request)) {
             TransactionLogger.logTransaction(request, String.valueOf(request.getAmount().getValue() * 0.01), "Данные не прошли валидацию");
             throw new InvalidDataExc("Ошибка ввода данных");
         }
-        return performTransfer(request);
+
+        String operationId = UUID.randomUUID().toString();
+        operations.put(operationId, "0000");
+
+        TransactionLogger.logTransaction(request, String.valueOf(request.getAmount().getValue() * 0.01), "Ожидает подтверждения");
+        return operationId;
     }
 
     private boolean validateRequest(TransferRequest request) {
@@ -27,19 +36,6 @@ public class TransferService {
             throw new InvalidDataExc("Проверьте номер карты получателя");
         }
         return request.getCardFromNumber() != null && request.getCardToNumber() != null;
-    }
-
-
-    private String performTransfer(TransferRequest request) throws TransferExc {
-
-        if (Integer.parseInt(request.getCardFromCVV()) < 900) {
-            TransactionLogger.logTransaction(request, String.valueOf(request.getAmount().getValue()*0.01), "Успешно");
-            return UUID.randomUUID().toString();
-
-        } else {
-            TransactionLogger.logTransaction(request, String.valueOf(request.getAmount().getValue() * 0.01), "Ошибка ввода данных");
-            throw new TransferExc("Неверный CVC!");
-        }
     }
 
     private boolean validNumber(String cardFromNumber) {
@@ -57,5 +53,14 @@ public class TransferService {
             sum += Integer.parseInt(numbers[i]);
         }
         return (sum + controlDigit) % 10 == 0;
+    }
+
+    public boolean confirmOperation(String operationId, String code) {
+        String storedCode = operations.get(operationId);
+        if (storedCode != null && storedCode.equals(code)) {
+            operations.remove(operationId);
+            return true;
+        }
+        return false;
     }
 }
